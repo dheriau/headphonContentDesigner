@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone Content</title>
+</head>
+
+<body>
+    <style>
+        .uni-content {
+            font-family: Arial;
+            font-size: 15px;
+            color: #202020;
+            padding: 25px;
+        }
+
+        .uni-content p {
+            font-size: 15px;
+            line-height: 24px;
+            padding-bottom: 25px;
+            font-family: Verdana, Geneva, sans-serif;
+        }
+
+        .uni-content p:last-child {
+            padding-bottom: 0;
+        }
+
+        .uni-content a {
+            color: #06c;
+            font-size: 15px;
+        }
+
+        .uni-content figure {
+            background: none;
+            border: 0;
+            border-radius: 0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .uni-content figure img {
+            max-width: 100% !important;
+            height: auto !important;
+        }
+
+        .uni-title {
+            font-family: arial;
+            font-size: 28px;
+            margin-bottom: 5px;
+        }
+
+        .uni-content .sub-title {
+            font-size: 20px;
+            margin: 0 0 15px 0;
+        }
+
+        .uni-content .item {
+            display: inline-block;
+            margin: 25px 0;
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+        }
+
+        .uni-content .item.left figure {
+            float: left;
+            margin-right: 25px;
+            margin-bottom: 25px;
+        }
+
+        .uni-content .item.right figure {
+            float: right;
+            margin-left: 40px;
+            margin-bottom: 25px;
+        }
+
+        .uni-content table {
+            width: 100% !important;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        .uni-content table,
+        th,
+        td {
+            border: 1px solid white;
+            border-collapse: collapse;
+            font-family: Verdana, Geneva, sans-serif;
+
+        }
+
+        .uni-content th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+
+        .uni-content #t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        .uni-content #t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+
+        .uni-content #t01 th {
+            background-color: #43424b !important;
+            color: white !important;
+        }
+
+        .unicontent-flexbox {
+            display: flex;
+            flex-direction: row;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .unicontent-flex-item-left {
+
+            padding: 10px;
+            flex: 33%;
+        }
+
+
+        .unicontent-flex-item-right {
+
+            padding: 10px;
+            flex: 33%;
+        }
+
+        @media (max-width: 800px) {
+            .unicontent-flexbox {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <h2 class="uni-title">Ürün Detayları</h2>
+    <section class="uni-content">
+        <h2 class="sub-title">Tain Title </h2>
+
+        <div style="max-width:900px; margin-left:auto; margin-right:auto;">
+
+            <div class="item left">
+                <figure><img src="1.jpg" alt="görsel1"
+                        style="display: block; margin-left: auto; margin-right: auto; width: 440px; height: 357px;">
+                </figure>
+                <p style="text-align: left;"><strong><span style="font-size: 36px;"><br><br><br><br>Loremipsum</span>
+                    </strong>
+                    <span style="font-size: 30px;">İpsumLorem</span>
+                </p>
+                <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error aliquam
+                    distinctio laborum itaque, omnis cumque, molestiae explicabo sunt deleniti expedita dolorem nihil
+                    voluptate repellat incidunt eos fugit rem dolores esse!</p>
+            </div>
+        </div>
+
+
+        <div class="item center">
+            <figure><img src="2.jpg" alt="görsel1" style="display: block; margin-left: auto; margin-right: auto;">
+            </figure>
+        </div>
+
+
+
+
+        <div class="item left">
+
+            <h3 class="sub-title" style="font-size:30px;"><br>vivid Color Scheme <img src="3.gift.gif"
+                    style="width: 37px; height: 37px;"></h3>
+            <h2 class="sub-title" style="font-size:67px; font-family:Manrope, Arial, ">The Blue That Decays Through The Clouds
+                White</h2>
+            <p>Reflecting the basis of an impeccable style, blue and white models are the most beautiful in the lightness of the clouds and sky.
+                he was inspired.</p>
+
+        </div>
+        <hr>
+
+
+
+        <h2 class="sub-title" style="font-size: 71px; text-align: center; font-weight:bold;">4 Reasons To Fall in Love
+        </h2>
+
+
+
+
+        <div class="item center">
+            <figure><img src="4.jpg" alt="görsel1" style="display: block; margin-left: auto; margin-right: auto;">
+            </figure>
+        </div>
+
+
+
+
+
+        <div class="item left">
+            <figure><img src="5.jpg" alt="görsel2" style="width: 565px; height: 658px;">
+            </figure>
+
+            <h3 class="sub-title" style="font-size:30px;"><br>Comfortable Fit <img src="2gift.gif"
+                    style="width: 37px; height: 37px;"></h3>
+            <h2 class="sub-title" style="font-size:67px; font-family:Manrope, Arial, ">Lightness With Comfort <br>Metting
+            </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur totam aspernatur id praesentium maiores vero explicabo eligendi deleniti optio. 
+               
+                <br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere sit dolores, ea odio consectetur fugiat reprehenderit inventore molestiae error, cupiditate,
+                 aspe</p>
+
+            <div style="text-align: top-right;">
+
+                <figure style="text-align: top-right;"><img src="6.jpg" alt="görsel2"
+                        style="width: 521px; height: 516px; float: right;">
+                </figure>
+            </div>
+        </div>
+
+
+
+        <div>
+            <h3 class="sub-title" style="font-size: 30px; text-align: center;"><br>3 Ear Tip Size <img
+                    src="3.gift.gif" style="width: 41px; height: 41px;"></h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: center;">It Fits Perfectly in Your Ears</h2>
+            <p style="text-align: center;">Three different sizes of silicone ear tips allow you to find the perfect fit.</p>
+        </div>
+
+        <figure><img src="7.jpg" alt="görsel1"
+                style="display: block; margin-left: auto; margin-right: auto; width: 1023px; height: 462px;">
+        </figure>
+
+
+        <div>
+
+
+            <div class="item right" style="background-color: #E9E9E9; padding:20px;">
+                <figure style="text-align: right;"><img src="8.png" alt="görsel1"
+                        style="display: block; margin-left: auto; margin-right: auto; width: 625px; height: 514px; font-size: 15px; color: rgb(32, 32, 32); padding: 25px; font-family: Arial;">
+                </figure>
+                <h3 class="sub-title" style="font-size: 30px; text-align: left;"><br><br>Crystal Clear Sound Quality
+                    <img src="4gift.gif" style="width: 41px; height: 41px;"></h3>
+                <h2 class="sub-title" style="font-size: 65px; text-align: left;">The Perfect Music Experience Is Enticing
+                    Smart Voice</h2>
+                <p style="text-align: left;">with a 10 mm dynamic driver and an ultra-precise polymeric diaphragm, it is thin
+                    the vibrations offer rich textures to the surface within a large sound field. Vocals, balanced three-channel
+                    you can add new ones to your favorite songs with pleasure by highlighting them in the audio frame
+                    provides.
+                </p>
+
+            </div>
+        </div>
+
+
+
+
+        <div>
+
+            <h3 class="sub-title" style="font-size: 30px; text-align: center;"><br><br>Long Lasting Power <img
+                    src="5gift.gif" style="width: 52px; height: 52px;"></h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: center;">Hear More of Your Loved Ones</h2>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus quaerat ratione, reiciendis iusto obcaecati delectus eos pariatur,
+                dignissimos placeat</p>
+
+        </div>
+
+
+        <div class="item center">
+            <figure><img src="9.jpg" alt="görsel1" style="display: block; margin-left: auto; margin-right: auto;">
+            </figure>
+        </div>
+
+
+
+        <div class="item right">
+
+            <h3 class="sub-title" style="font-size: 30px; text-align: center;"><br><br>Perfect Noise Cancellation <img
+                    src="6gift.gif" style="width: 41px; height: 41px;"></h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: center;">Noise Cancellation for Calls</h2>
+            <p style="text-align: center;">Dual microphone beamforming technology, even in crowded and noisy areas
+                target sound with high accuracy from ambient noise to ensure that every call is crystal clear
+                separates.</p>
+
+
+        </div>
+
+        <div class="item center">
+            <figure style="text-align: center;"><img src="10.jpg" alt="görsel1"
+                    style="display: block; margin-left: auto; margin-right: auto; width: 1077px; height: 593px; font-size: 15px; color: rgb(32, 32, 32); padding: 25px; font-family: Arial;">
+            </figure>
+        </div>
+
+
+        <div class="item right">
+
+            <h3 class="sub-title" style="font-size: 30px; text-align: center;"><br><br>Low Latency in Games
+                <img src="7gift.gif" style="width: 41px; height: 41px;"></h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: center;">Feel the Difference of Synchronized Sound</h2>
+            <p style="text-align: center;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, dignissimos, explicabo hic eveniet sunt odio perferendis necessitatibus omnis quae magni veniam. 
+                Nihil officiis veniam non corporis ut voluptatem natus repudiandae.</p>
+
+
+        </div>
+
+        <div class="item center">
+            <figure style="text-align: center;"><img src="11.png" alt="görsel1"
+                    style="display: block; margin-left: auto; margin-right: auto; width: 1077px; height: 593px; font-size: 15px; color: rgb(32, 32, 32); padding: 25px; font-family: Arial;">
+            </figure>
+        </div>
+
+
+
+
+
+        <div class="item left">
+            <figure style="text-align: left;"><img src="12.jpg" alt="görsel1"
+                    style="width: 519px; height: 450px; font-size: 15px; color: rgb(32, 32, 32); padding: 25px; font-family: Arial; float: left;">
+            </figure>
+            <h3 class="sub-title" style="font-size: 30px; text-align: left;"><br><br>Bluetooth Connections&nbsp;<img
+                    src="8gift.gif
+                    style=" width: 41px; height: 41px;"></h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: left;">To Listen</h2>
+            <p style="text-align: left;">with a 10 mm dynamic driver and an ultra-sensitive polymeric diaphragm, fine vibrations,
+                <br>it offers rich textures to the surface within a wide sound field. Vocals,<br>balanced three-channel sound
+                enjoy new ones to your favorite songs by highlighting them in the frame
+                allows you to add.
+            </p>
+
+        </div>
+
+
+        <br><br>
+
+        <div class="item right">
+            <figure style="text-align: left;"><img src="13.png" alt="görsel1" style="width: 297px; height: 503px;">
+                <img src="14.png" alt="görsel1" style="width: 207px; height: 385px;">
+
+            </figure>
+            <h3 class="sub-title" style="font-size: 30px; text-align: left;">Control By Touch&nbsp;<img
+                    src="9gift.gif" style="width: 41px; height: 41px;"> </h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: left;">High Interaction <br>High Shooting</h2>
+            <p style="text-align: left;">Lorem ipsum dolor sit amet consectetur adipisicing elit.  <br>Pause playback and
+                double tap to continue or answer a call<br>and turn it off - it's all at your fingertips
+                the end!</p>
+
+
+            <div class="unicontent-flexbox">
+                <div class="unicontent-flex-item-left">
+
+                    <h3 class="sub-title" style="text-align: left; color:#D8FDF5; font-size:bold;"><br><span
+                            style="color: rgb(0, 240, 240);">Default features</span>
+                    </h3>
+                    <p style="text-align: left;">During playback: Play /pause <br>During calls: Answer /
+                        close</p>
+                </div>
+
+
+
+
+                <div class="unicontent-flex-item-right">
+
+
+                    <h3 class="sub-title" style="text-align: left; color:#D8FDF5; font-size:bold;"><br><span
+                            style="color: rgb(0, 240, 240);">Optional features</span></h3>
+                    <p style="text-align: left;">Next track / previous track <br>Wake-up voice assistant</p>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="item left">
+            <figure style="text-align: left;"><img src="15.png" alt="görsel1"
+                    style="width: 258px; height: 507px; font-size: 15px; color: rgb(32, 32, 32); padding: 25px; font-family: Arial; float: left;">
+            </figure>
+            <h3 class="sub-title" style="font-size: 30px; text-align: left;"><br><br><img src="16giftss.png"
+                    style="width: 41px; height: 41px;">&nbsp;HLOREM İPSum&nbsp;</h3>
+            <h2 class="sub-title" style="font-size: 65px; text-align: left;">Özelleştirin, <br>Hayatı Güzelleştirin</h2>
+            <p style="text-align: left;"><strong>Aİ Life</strong> by downloading the app (on Android and iOS6
+                supported), <br>you can customize the touch settings on your lorem FreeBuds SE. <br>Discover
+                there are so many things and so many new ways to listen!
+            </p>
+
+        </div>
+
+
+
+
+
+        <div class="item right" style="background-color:#F8F8F8; padding:15px;">
+            <figure style="text-align: left;"><img
+                    src="https://n11scdn3.akamaized.net/a1/org/14/50/44/76/IMG-3226979227823333635.jpg" alt="görsel1"
+                    style="width: 543px; height: 574px; font-size: 15px; color: rgb(32, 32, 32); padding: 25px; font-family: Arial; float: left;"
+                    class="">
+            </figure>
+
+            <h2 class="sub-title" style="font-size: 65px; text-align: right;"><br><br>Your Moment <br>Your Music</h2>
+            <p style="text-align: right;" class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus voluptatem illo fuga mollitia,
+                 <br>high
+                 it aims to provide a high-quality and all-scenarios music experience.</p>
+
+        </div>
+
+
+
+
+
+
+
+
+     
+    </section>
+</body>
+
+</html>
